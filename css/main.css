@@ -31,7 +31,6 @@ nav ul {
   background-color: #b58900;
 }
 
-div strong:nth-child(2) {
 .dfn + strong {
   color: #fff;
 }
@@ -41,7 +40,7 @@ a {
 }
 
 .no-highlight {
-  background-color: #fdf6e3;
+  background-color:#fdf6e3;
 }
 
 a[rel="external"] {
@@ -61,6 +60,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types li:nth-child(3n) {
+.types li:nth-child(3rd) {
   background-color: #d04b16;
 }
