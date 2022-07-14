@@ -1,12 +1,8 @@
-box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-
-* {
+*, *::before, *::after {
   box-sizing: inherit;
-}
-
-.logo {
-  text-transform: uppercase;
 }
 body {
   background-color: #fdf6e3;
@@ -14,12 +10,40 @@ body {
 header, footer {
   font-size: 1.5rem;
 }
-ul, nav {
+
+nav ul {
   font-family: sans-serif;
 }
-.wrapper {
-  background-color: #eee8d5;
+
+@@ -38,12 +38,12 @@ ul, nav {
+  color: #fff;
 }
-h2 {
-  color: #93a1a1;
+
+a {
+  background-color: #719e07;
+}
+
+ul li {
+  background-color: #2694d8;
+.no-highlight {
+  background-color: #fdf6e3;
+}
+
+a[rel="external"] {
+  background-color: #2694d8;
+}
+ol li:first-child {
+ color: #719e47;
+}
+ol li:last-child {
+ color: #2aa198;
+}
+.types li:nth-child(odd) {
+ background-color: #657ba3;
+}
+.types li:nth-child(even) {
+ background-color: #586e75;
+}
+.types li:nth-child(3n) {
+ background-color: #d04b16;
 }
