@@ -13,7 +13,6 @@ header, footer {
   font-size: 1.5rem;
 }
 
-ul, nav {
 nav ul {
   font-family: sans-serif;
 }
@@ -28,7 +27,6 @@ nav ul {
   color: #93a1a1;
 }
 
-div {
 .wrapper > .dfn {
   background-color: #b58900;
 }
@@ -38,12 +36,10 @@ div strong:nth-child(2) {
   color: #fff;
 }
 
-li > a {
 a {
   background-color: #719e07;
 }
 
-ul li {
 .no-highlight {
   background-color: #fdf6e3;
 }
